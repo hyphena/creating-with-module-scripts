@@ -1,6 +1,9 @@
 # Project place file
-/module-scripts.rbxlx
+/*.rbxl
 
 # Roblox Studio lock files
 /*.rbxlx.lock
 /*.rbxl.lock
+
+# Aftman install
+/aftman.toml
