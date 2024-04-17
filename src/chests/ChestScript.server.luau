@@ -1,5 +1,6 @@
 local ServerStorage = game:GetService("ServerStorage")
 -- Require the module script below ⯆
+local TreasureManager = require(ServerStorage:WaitForChild("TreasureManager"))
 
 local chests = script.Parent
 local chestsFolder = chests.Parts
@@ -11,7 +12,9 @@ local function partTouched(otherPart, chestPart)
 	if humanoid then
 		-- Check if the player can open a chest, then let them get treasure
 		-- =============================================
-
+		if TreasureManager.canOpenChest(character) then
+			TreasureManager.openChest(chestPart, character)
+		end
 		-- =============================================
 	end
 end
