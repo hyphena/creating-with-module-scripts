@@ -15,6 +15,12 @@
       }
     },
 
+    "ServerStorage": {
+      "ServerStorage": {
+        "$path": "src/server-storage"
+      }
+    },
+
     "StarterPlayer": {
       "StarterPlayerScripts": {
         "Client": {
@@ -23,13 +29,10 @@
       }
     },
 
-    "ServerStorage": {
-      "ServerStorage": {
-        "$path": "src/server-storage"
-      }
-    },
-
     "Workspace": {
+      "Keys": {
+        "$path": "src/keys"
+      },
       "$properties": {
         "FilteringEnabled": true
       }
