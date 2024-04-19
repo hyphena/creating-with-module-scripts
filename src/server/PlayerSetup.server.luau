@@ -1,7 +1,4 @@
 local Players = game:GetService("Players")
-local ServerStorage = game:GetService("ServerStorage")
--- Require the module script below ⯆
-
 
 local function playerSetup(player)
 	local leaderstats = Instance.new("Folder")
