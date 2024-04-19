@@ -1,6 +1,6 @@
 local ServerStorage = game:GetService("ServerStorage")
 -- Require the module script below ⯆
-local TreasureManager = require(ServerStorage:WaitForChild("TreasureManager"))
+local TreasureManager = require(ServerStorage.ServerStorage:WaitForChild("TreasureManager"))
 
 local chests = script.Parent
 local chestsFolder = chests.Parts

@@ -17,10 +17,10 @@
 
     "Workspace": {
       "Chests": {
-        "$path": "src/chests"
+        "$path": "src/workspace/chests"
       },
       "Keys": {
-        "$path": "src/keys"
+        "$path": "src/workspace/keys"
       },
       "$properties": {
         "FilteringEnabled": true
