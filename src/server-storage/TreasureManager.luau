@@ -18,8 +18,8 @@ function TreasureManager.openChest(chestPart, whichCharacter)
   local playerKeys = getLeaderstat("Lockpicks", whichCharacter)
   local playerTreasure = getLeaderstat("Treasure", whichCharacter)
 
-  playerKeys.Value = playerKeys - chestCost
-  playerTreasure.Value = playerTreasure + chestReward
+  playerKeys.Value = playerKeys.Value - chestCost
+  playerTreasure.Value = playerTreasure.Value + chestReward
   chestPart:Destroy()
 end
 
