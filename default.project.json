@@ -4,15 +4,24 @@
     "$className": "DataModel",
 
     "ServerScriptService": {
-      "$path": "src/server"
+      "Server": {
+        "$path": "src/server"
+      }
     },
 
     "ServerStorage": {
-      "$path": "src/server-storage"
+      "ServerStorage": {
+        "$path": "src/server-storage"
+      }
     },
 
     "Workspace": {
-      "$path": "src/workspace",
+      "Chests": {
+        "$path": "src/chests"
+      },
+      "Keys": {
+        "$path": "src/keys"
+      },
       "$properties": {
         "FilteringEnabled": true
       }
